@@ -345,9 +345,24 @@ body {
 }
 
 .services-item {
-  background: linear-gradient(285.48deg, #00A0E3 0%, #7AD6FD 100%);
   border-radius: 15px;
   padding: 47px 67px;
   color: #fff;
   line-height: 200%;
+}
+
+.services-item.services-item_web {
+  background: linear-gradient(285.48deg, #00A0E3 0%, #7AD6FD 100%);
+}
+
+.services-item.services-item_html {
+  background: linear-gradient(285.48deg, #FEB033 0%, #FFE600 100%);
+}
+
+.services-item.services-item_animation {
+  background: linear-gradient(285.48deg, #9B43FF 0%, #FD71EF 100%);
+}
+
+.services-item.services-item_poli {
+  background: linear-gradient(285.48deg, #2BCD10 0%, #7AFDD6 100%);
 }
