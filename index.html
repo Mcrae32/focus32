@@ -23,14 +23,14 @@
     <header class="header">
         <div class="container">
             <div class="header__row">
-                <img src="" class="header__logo" alt="logo">
+                <img src="images/header__logo.svg" class="header__logo" alt="logo">
                 <nav class="hedaer__nav nav">
                     <ul class="menu">
-                        <li class="menu__item menu__item_active">Главная</li>
-                        <li class="menu__item">Обо мне </li>
-                        <li class="menu__item">Услуги</li>
-                        <li class="menu__item">Портфолио</li>
-                        <li class="menu__item">Контакты</li>
+                        <li class="menu__item menu__item_active"><a href="" titile="">Главная</a></li>
+                        <li class="menu__item"><a href="" titile="">Обо мне </a></li>
+                        <li class="menu__item"><a href="" titile="">Услуги</a></li>
+                        <li class="menu__item"><a href="" titile="">Портфолио</a></li>
+                        <li class="menu__item"><a href="" titile="">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,28 +39,41 @@
     <section class="head-slider">
         <div class="container">
             <div class="head-slider__row">
-                <div class="head-slider__text">                
-                    <h1>Портфолио <br><span>Ковалева Дениса</span></h1>
-                    <p class="heade-slider__sub-title">Web - дизайнер, HTML - верстальщик</p>
-                    <div class="button">
-                        <a href="#">Мои контакты</a>
+                <div class="head-slider__col">
+                    <div class="head-slider__text">                
+                        <h1>Портфолио <br><span>Ковалева Дениса</span></h1>
+                        <p class="heade-slider__sub-title">Web - дизайнер, HTML - верстальщик</p>
+                        <div class="button">
+                            <a href="#">Мои контакты</a>
+                        </div>
                     </div>
                 </div>
-                <img src="head-slider__img" alt="Ковалев Денис">
+                <div class="head-slider__col head-slider__col_image">
+                    <img class="head-slider__img" src="images/KD.jpg" alt="Ковалев Денис">
+                </div>
             </div>
         </div>
     </section>
     <section class="about">
         <div class="container">
-            <h2 class="about__title">Обо мне</h2>
-            <div class="about__text text">
-                <p>Дизайном занимаюсь с 2010 года. Владею Corel, Photoshop, Sketch, Figma, Ai, на базовом уровне
-                    After Effects. Знаю HTML, CSS, Bootstrap, JS (база). Постоянно осваиваю что-то новое для себя.
-                    Адаптивно кроссбраузерно верстаю сайты. 
-                    Также есть опыт в полиграфии.</p>
-            </div>
-            <div class="button">
-                <a href="#">Смотреть работы</a>
+            <div class="about__row">
+                <div class="about__col about__col_title">
+                    <h2 class="about__title title">Обо мне</h2>
+                    <img class="about__logo" src="images/about__logo.svg" alt="logo">
+                </div>
+                <div class="about__col">
+                    <div class="about__text text">
+                        <p>Дизайном занимаюсь с 2010 года.</p>
+                        <p>Владею Corel, Photoshop, Sketch, Figma, Ai, на базовом уровне
+                            After Effects. Знаю HTML, CSS, Bootstrap, JS (база).</p>
+                        <p>Постоянно осваиваю что-то новое для себя.
+                            Адаптивно кроссбраузерно верстаю сайты.</p>
+                            <p>Также есть опыт в полиграфии.</p>
+                    </div>
+                    <div class="button">
+                        <a href="#">Смотреть работы</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -73,7 +86,7 @@
                 <div class="services__col">
                     <div class="services-item">
                         <div class="services-item__icon">
-                            <img src="" alt="">
+                            <img src="images/icon-web.svg" alt="web-design">
                         </div>
                         <h3 class="services-item__title">Web - дизайн </h3>
                         <p class="services-item__reviews">Разработка дизайна, верстка макета и последующая установка на CMS</p>

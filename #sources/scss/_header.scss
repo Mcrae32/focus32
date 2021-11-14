@@ -1,0 +1,28 @@
+//header   
+.header__row {
+    background-color: #fff;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu__item {
+    margin-left: 47px;
+    &:first-child {
+        margin-left: 0;
+    }
+    a {
+        color: #000;
+    }
+}
+.menu__item_active {
+    a {
+        color: #FEB633;
+        text-decoration: underline;
+    }
+}
+//header end
